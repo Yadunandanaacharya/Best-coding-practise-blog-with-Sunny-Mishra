@@ -1,0 +1,182 @@
+https://www.linkedin.com/pulse/pitfalls-new-developers-sunny-mishra/
+
+0 notifications total
+
+Skip to search
+
+Skip to main content
+
+Close jump menu
+LinkedIn
+Search
+
+Primary Navigation
+Home
+My Network
+Jobs
+Messaging
+20
+20 new 20 new notifications. notificationsNotifications
+Adi BhatMe 
+Work 
+Post a Job
+Photo by Mimi Thian on Unsplash
+Photo by Mimi Thian on Unsplash
+Pitfalls for new Developers!
+Published on March 30, 2020
+Sunny MishraStatus is reachable
+Sunny Mishra
+Senior Developer | Storyteller
+2 articles 
+Following
+In the last few years while doing the code review of junior developers I have noticed several recurring programming pitfalls. Goes on to say, if unchecked such sub-par coding will lead to buggy production releases and also cause Performance SLA breaches. In this post, I will be sharing these points which may help junior developers to put them to use in their own code.
+
+Reflecting on the past few years of my own coding experience, I have been lucky to get a few bugs in my code. I always thought I was lucky as I didn’t do anything special in my code. But recently I scoured through the internet and found a couple of programming best practices. I realized unknowingly I had been following these practices all along.
+
+So here’s the list. Also, I have tried to reword some points so they sound funny and make it a less boring list to consume:
+
+• Between Code-Optimization & Code-Readability, choose Code Readability. Always.
+
+• Kids write huge monolithic function. Legends keep it simple: One method – one task.
+
+• Modular code is our mantra. We always write Modular code. Wait, what is “Modular code” again?
+
+• Writing Single line fancy code is cool. But then, verbose code gets fewer bugs in production.
+
+• Avoid Fancy code 101: Choose Switch-case instead of Ternary operator or huge single line if block.
+
+• Avoid Fancy code 101: Always use Curly braces {} around if-else, switch-case and for loops
+
+• I promise to maintain my written Code for the next 10 years. So I will not write Comments in my code. Would you promise the same?
+
+• I have the sharpest Memory in my entire team. I remember all my code. So I will not write Comments in my code. What about you?
+
+• Loosely coupled code, Modular code & Refactored code are the same thing. Google them today.
+
+• Your b.ful Code has the right to get reviewed. Remember your rights. Ask for code review and feedback every time.
+
+• Move repetitive code into a generic utility function. At least try once, you will thank me later.
+
+• Write a sufficient amount of debug logs in your code. Remember overconfidence killed the cat.
+
+• Feel proud if you could write 5 Unit test cases for just 1 new Function you wrote.
+
+• Unit-test and Code-coverage are different things. Google “Code coverage” today.
+
+• Global variables are your enemy. Avoid them in your code, if you can.
+
+• Integration testing and Unit-testing are not the same. What are you testing?
+
+• ‘My test-case is my test-case, none of your test-case’ :) Well, all I am sayin’ is: Don’t share your test-cases with your Tester teammate.
+
+• Add documentation for each function you write. You will forget in 6 months what your own Function does.
+
+• Adopt Functional programming constructs like Map, reduce, Filters in your code. Declarative code is fun to write and more readable.
+
+• Immutable variables have saved many lives. Try final or const(whichever keyword your Language supports) variables today in your code.
+
+• NullPointer exception misses you a lot. Let it miss you more, use the Null check in your code.
+
+• Does your function have dozens of if-else blocks? Smells like data handling in the name of business logic. Move data out of the code into separate file eg. .json/.yaml/.xml
+
+• It is tempting to catch the Parent/Generic exception, isn’t it? It’s sinful, don’t do that, catch and handle the particular exception.
+
+• Did you forget to Close the Resources your Code consumed, such as IO connection, DB connection?
+
+• Always let your Function Handle the Exception, don’t wait for your calling/parent function to handle it. Don’t be lazy.
+
+• Updating a List/Map while iterating over it is Bad programming. Use the functional programming constructs of Map-Reduce instead.
+
+• 80% of the time you are working on someone else’s legacy code. Respect others, Write a simpler readable code.
+
+• Cover edge cases in your code. Don’t wait for the tester to find them and log a bug in your name
+
+• Write functions that work on Immutable variables. You will thank me later in a Multithreaded environment.
+
+• Don’t write code logic in the Exception Catch block. High-schoolers do that. Wait, are you a high-schooler?
+
+• Design patterns are god-sent tools. Google and use them in your code today
+
+Happy coding fellas!! -Sunny
+
+
+
+This article was originally published on my blog here.
+
+
+
+
+
+Report this
+Published by
+Sunny MishraStatus is reachable
+Sunny Mishra
+Senior Developer | Storyteller
+Published • 6mo
+2 articles
+
+Following
+Few pitfalls that I notice regularly during junior developer's code review. Thought of sharing in a funny reworded manner here so it helps other developers write better code.
+
+#programminglife 
+
+LIKE
+Like
+
+Comment
+
+Share
+LIKE  INTEREST 58
+2 Comments
+Reactions
+Adi BhatLIKESureka RajaLIKEHemanth RavulaLIKEPoojana VINTERESTkshitij kallaLIKEKumar Gaurav PandeyLIKEAditya ShuklaLIKENandini TayalLIKERahul RadhakrishnanLIKEKamalakannan RavichandranLIKE+46
+2 CommentsComments on Sunny Mishra’s article
+
+Most Relevant
+Adi Bhat
+
+
+
+See profile for Kat R.
+Kat R.
+2nd degree connection 2nd
+Software Engineer | Java Developer
+6mo
+You can use ternary for simple assignments. I do it  if it only uses 1 uncomplicated condition for each decision branch. 🙂
+
+
+
+Like
+LIKE 2
+
+Reply
+See profile for Navkant Tyagi
+Navkant Tyagi
+2nd degree connection 2nd
+Software Developer at ParallelDots
+6mo
+Some really good points and some I have been missing too.
+
+
+
+Like
+LIKE 1
+
+Reply
+Sunny Mishra
+Sunny Mishra
+Senior Developer | Storyteller
+
+Following
+More from Sunny Mishra
+
+Why traditional learning methods fail for Millennials and how you can fix it
+Sunny Mishra on LinkedIn
+Adi BhatStatus is online
+
+Messaging You are on the messaging overlay. Press enter to open the list of conversations.
+
+Compose message
+
+
+You are on the messaging overlay. Press enter to open the list of conversations.
